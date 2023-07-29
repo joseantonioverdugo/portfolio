@@ -59,6 +59,17 @@ const bbdd = {
       alt: 'Quote Generator',
     },
   ],
+  about: {
+    h2: 'Sobre mí',
+    p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati corporis voluptate error sit minus, pariatur laboriosam aliquid, veritatis blanditiis, quis numquam assumenda nostrum nisi hic consectetur aut optio nemo id.',
+  },
+  contacto: {
+    h2: 'Contacto',
+    p: 'Si quieres ponerte en contacto conmigo, puedes hacerlo a través de mi correo electrónico:',
+  },
+  footer: {
+    p: 'Creado por José Antonio Verdugo',
+  },
 }
 
 export const GlobalContext = createContext(bbdd)

@@ -12,7 +12,12 @@ export default function Proyectos() {
       {proyectos.map((proyecto) => (
         <article key={proyecto.id}>
           <a href={proyecto.href} target='_blank' rel='noreferrer'>
-            <img src={proyecto.img} alt={proyecto.alt} loading='lazy' />
+            <img
+              className='img'
+              src={proyecto.img}
+              alt={proyecto.alt}
+              loading='lazy'
+            />
             <h4>{proyecto.title}</h4>
           </a>
         </article>
