@@ -1,6 +1,6 @@
-import Principal from './components/Principal'
+import Principal from './components/principal/Principal'
 import Circulos from './components/Circulos'
-import Navbar from './components/Navbar'
+import Navbar from './components/navbar/Navbar'
 import Proyectos from './components/Proyectos'
 import About from './components/About'
 import Contacto from './components/Contacto'
@@ -11,11 +11,13 @@ const App = () => {
     <>
       {/* <Circulos /> */}
       <Navbar />
-      <Principal />
-      <Proyectos />
-      <About />
-      <Contacto />
-      <Footer />
+      <div className='Wrapper'>
+        <Principal />
+        <Proyectos />
+        <About />
+        <Contacto />
+        <Footer />
+      </div>
     </>
   )
 }

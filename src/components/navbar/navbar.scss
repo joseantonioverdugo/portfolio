@@ -1,0 +1,18 @@
+@import '../../scss/mixins';
+@import '../../scss/reset';
+
+.Navbar {
+  background-color: aqua;
+  @include flex(row, nowrap, space-between, center);
+  height: 4rem;
+
+  &-ul {
+    background-color: red;
+    @include flex(row, nowrap, space-between, center);
+    gap: 1.5rem;
+  }
+  &-li {
+  }
+  &-a {
+  }
+}

@@ -1,0 +1,37 @@
+@import '../../scss/mixins';
+@import '../../scss/reset';
+
+.Principal {
+  // background-color: crimson;
+  height: 35vh;
+  @include flex(column, nowrap, flex-end, center);
+  &-h1 {
+    font-size: clamp(1.7rem, 6vw, 5.5rem);
+    font-weight: 600;
+  }
+  &-h2 {
+    font-size: clamp(1.5rem, 5vw, 4rem);
+    font-weight: 600;
+  }
+  &-ul {
+    // background-color: pink;
+    margin: 3rem 0;
+    @include flex(row, nowrap, center, center);
+    gap: 4rem;
+  }
+  &-li {
+    font-size: clamp(1.1rem, 2vw, 1.4rem);
+    font-weight: 600;
+    text-align: center;
+  }
+  &-boton {
+    padding: 1rem 2rem;
+    border: 1px solid var(--blanco-2);
+    border-radius: 2rem;
+    transition: background-color 0.5s ease;
+    &:hover {
+      background-color: var(--negro);
+      border-color: var(--blanco);
+    }
+  }
+}
