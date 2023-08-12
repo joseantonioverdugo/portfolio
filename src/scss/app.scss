@@ -1,17 +1,6 @@
 @import './mixins';
 @import './reset';
-// @import '../components/navbar/navbar.scss';
 
 body {
   background-color: var(--negro-7);
-}
-
-.Wrapper {
-  max-width: 120rem;
-  margin: auto;
-  background-color: black;
-}
-
-.img {
-  max-width: 20rem;
 }

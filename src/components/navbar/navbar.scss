@@ -2,7 +2,6 @@
 @import '../../scss/reset';
 
 .Navbar {
-  // background-color: aqua;
   @include flex(row, nowrap, space-between, center);
   height: 4rem;
   background-color: var(--negro-5);
