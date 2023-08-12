@@ -3,24 +3,13 @@
 // @import '../components/navbar/navbar.scss';
 
 body {
-  background-color: lightblue;
+  background-color: var(--negro-7);
 }
 
 .Wrapper {
   max-width: 120rem;
   margin: auto;
   background-color: black;
-}
-
-.Circulos {
-  &-1 {
-  }
-  &-2 {
-  }
-  &-3 {
-  }
-  &-4 {
-  }
 }
 
 .img {
