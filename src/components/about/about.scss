@@ -1,0 +1,18 @@
+@import '../../scss/mixins';
+@import '../../scss/reset';
+
+.About {
+  background-color: red;
+  height: 50vh;
+  @include flex(column, nowrap, center, center);
+  &-h2 {
+    font-size: clamp(1.5rem, 4vw, 4rem);
+    font-weight: 600;
+  }
+  &-div {
+    background-color: aqua;
+    max-width: 40rem;
+  }
+  &-p {
+  }
+}

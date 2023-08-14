@@ -61,7 +61,7 @@ const bbdd = {
   ],
   about: {
     h2: 'Sobre mí',
-    p: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati corporis voluptate error sit minus, pariatur laboriosam aliquid, veritatis blanditiis, quis numquam assumenda nostrum nisi hic consectetur aut optio nemo id.',
+    p: 'Desarrollador Full Stack centrado en la creación de aplicaciones web robustas y funcionales; enfocado principalmente en el desarrollo web, adquiriendo habilidades en diferentes tecnologías y frameworks como HTML, CSS, SASS, JavaScript, React, Python, Flask, SQLAlquemy, PostgreSQL.',
   },
   contacto: {
     h2: 'Contacto',
