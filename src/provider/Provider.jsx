@@ -10,18 +10,18 @@ const bbdd = {
     links: [
       {
         id: uuidv4(),
-        title: 'Sobre mí',
-        href: '#about',
-      },
-      {
-        id: uuidv4(),
         title: 'Proyectos',
         href: '#proyectos',
       },
       {
         id: uuidv4(),
+        title: 'Sobre mí',
+        href: '#about',
+      },
+      {
+        id: uuidv4(),
         title: 'Contacto',
-        href: '#home',
+        href: '#contacto',
       },
     ],
   },
@@ -58,6 +58,20 @@ const bbdd = {
       img: '../../public/quote-generator.jpg',
       alt: 'Quote Generator',
     },
+    {
+      id: uuidv4(),
+      title: 'Quote Generator',
+      href: 'https://quote-generator-joseantonioverdugo.vercel.app/',
+      img: '../../public/quote-generator.jpg',
+      alt: 'Quote Generator',
+    },
+    {
+      id: uuidv4(),
+      title: 'Quote Generator',
+      href: 'https://quote-generator-joseantonioverdugo.vercel.app/',
+      img: '../../public/quote-generator.jpg',
+      alt: 'Quote Generator',
+    },
   ],
   about: {
     h2: 'Sobre mí',
@@ -68,6 +82,7 @@ const bbdd = {
     p: 'Si quieres ponerte en contacto conmigo, puedes hacerlo a través de mi correo electrónico:',
   },
   footer: {
+    href: 'https://github.com/joseantonioverdugo',
     p: 'Creado por José Antonio Verdugo',
   },
 }

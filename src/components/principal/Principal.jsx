@@ -12,14 +12,14 @@ const Principal = () => {
       <div className='Principal'>
         <h1 className='Principal-h1'>{h1}</h1>
         <h2 className='Principal-h2'>{h2}</h2>
+        <ul className='Principal-ul'>
+          {buttons.map((button) => (
+            <li className='Principal-li' key={button.id}>
+              <Boton id={button.id} title={button.title} href={button.href} />
+            </li>
+          ))}
+        </ul>
       </div>
-      <ul className='Principal-ul'>
-        {buttons.map((button) => (
-          <li className='Principal-li' key={button.id}>
-            <Boton id={button.id} title={button.title} href={button.href} />
-          </li>
-        ))}
-      </ul>
     </section>
   )
 }

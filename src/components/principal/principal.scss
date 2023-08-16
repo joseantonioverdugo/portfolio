@@ -2,14 +2,16 @@
 @import '../../scss/reset';
 
 .Principal {
-  height: 50vh;
-  @include flex(column, nowrap, flex-end, center);
+  height: 90vh;
+  @include flex(column, nowrap, center, center);
+
   &-h1 {
-    font-size: clamp(1.7rem, 6vw, 5.5rem);
+    font-size: clamp(2.2rem, 6vw, 5.5rem);
     font-weight: 600;
+    text-align: center;
   }
   &-h2 {
-    font-size: clamp(1.5rem, 5vw, 4rem);
+    font-size: clamp(1.7rem, 5vw, 4rem);
     font-weight: 600;
   }
   &-ul {
