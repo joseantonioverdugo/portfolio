@@ -3,7 +3,6 @@
 
 .Proyectos {
   @include flex(column, nowrap, center, center);
-  // background-color: lightgreen;
   min-height: 100vh;
   height: auto;
 
@@ -13,10 +12,9 @@
     margin: 8rem 0;
   }
   &-grid {
-    // max-height: 100vh;
+    max-width: 60rem;
     height: auto;
     width: auto;
-    max-width: 80rem;
     @include flex(row, wrap, flex-start, center);
     gap: 2rem;
   }
@@ -27,46 +25,48 @@
     position: relative;
     border-radius: 1rem;
     overflow: hidden;
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: scale(1.05);
+    }
   }
-  &-a {
+
+  &-h4 {
+    width: 100%;
+    margin: 1rem 0 1rem 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
   }
+
   &-img {
     width: 100%;
     height: 12rem;
   }
 
-  &-prueba {
+  &-texto {
     margin: 1rem 1rem 2rem;
   }
 
-  &-h4 {
-    width: 100%;
-    margin: 0.5rem 0;
-    font-size: 1.4rem;
-    font-weight: 600;
-  }
   &-p {
   }
-  &-div {
-    @include flex(row, nowrap, center, center);
-    gap: 2rem;
-    width: 100%;
-    height: 100%;
-    margin: 1.5rem 0 1rem;
-    background-color: var(--negro-5);
-    backdrop-filter: blur(1rem);
-    top: -1.5rem;
-    left: 0;
-    position: absolute;
-    opacity: 0;
-    transition: opacity 0.5s ease;
 
-    &:hover {
-      opacity: 1;
-    }
+  &-btns {
+    @include flex(row, nowrap, flex-end, center);
+    width: 100%;
   }
   &-a {
-    padding: 1rem 2rem;
-    border: 1px solid var(--blanco);
+    margin: 0 1.5rem 1rem 0;
+  }
+  &-svg {
+    width: 1.8rem;
+    height: 1.8rem;
+    fill: rgba(255, 255, 255, 0.5);
+    transition: transform 0.2s ease;
+
+    &:hover {
+      fill: var(--blanco);
+      transform: scale(1.2);
+    }
   }
 }
