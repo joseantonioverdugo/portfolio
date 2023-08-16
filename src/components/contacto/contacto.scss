@@ -21,6 +21,14 @@
   }
   &-label {
   }
+
+  &-error {
+    margin: 0.5rem 0 0;
+    color: crimson;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
   &-input {
     border-bottom: 1px solid white;
     margin: 1rem 0;

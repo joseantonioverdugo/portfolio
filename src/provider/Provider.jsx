@@ -60,10 +60,10 @@ const bbdd = {
     },
     {
       id: uuidv4(),
-      title: 'Quote Generator',
-      href: 'https://quote-generator-joseantonioverdugo.vercel.app/',
-      img: '../../public/quote-generator.jpg',
-      alt: 'Quote Generator',
+      title: 'Country Quiz',
+      href: 'https://country-quiz-joseantonioverdugo.vercel.app/',
+      img: '../../public/country-quiz.png',
+      alt: 'Country Quiz',
     },
     {
       id: uuidv4(),
